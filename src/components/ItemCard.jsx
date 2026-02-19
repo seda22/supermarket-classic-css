@@ -1,7 +1,10 @@
-export default function ItemCard({name}){
+export default function ItemCard({product}){
+    console.log(product);
     return(
         <div className="item-card">
-            <h3>{name}</h3>
+            <img src={product.img} alt={product.alt}/>
+            <h3>{product.name}</h3>
+            <span>{product.price}</span>
         </div>
     )
 }

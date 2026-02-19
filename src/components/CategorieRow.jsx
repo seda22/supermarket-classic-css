@@ -6,7 +6,7 @@ export default function CategorieRow (props) {
         <div>
             <h2>{title}</h2>
             {items.map((item)=>{
-               return <ItemCard name={item} key={item}/>
+               return <ItemCard product={item} key={item.id}/>
             })}
         </div>
     )

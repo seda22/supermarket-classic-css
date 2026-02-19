@@ -1,5 +1,5 @@
 import CategorieRow from "./components/CategorieRow.jsx"
-import {fruits, cheeses, veggies} from "../itemslist.js"
+import {fruits, cheeses, veggies} from "./itemslist.js"
 
 export default function App() {
   return(
